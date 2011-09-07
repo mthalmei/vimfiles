@@ -28,3 +28,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/cscope_maps"]
+	path = bundle/cscope_maps
+	url = git://github.com/nelson/cscope_maps.git
