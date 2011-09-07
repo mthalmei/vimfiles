@@ -31,3 +31,6 @@
 [submodule "bundle/cscope_maps"]
 	path = bundle/cscope_maps
 	url = git://github.com/nelson/cscope_maps.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

@@ -106,6 +106,9 @@ map <F7>  :setlocal spell! spelllang=de <return>
 
 "tell the term has 256 colors
 set t_Co=256
-colorscheme molokai
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_contrast="high"
+colorscheme solarized
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
