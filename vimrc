@@ -55,10 +55,6 @@ vnoremap > >gv
 
 " suppress silly messages
 set shortmess=atI
-" visual bell without error flashing
-set visualbell
-set noerrorbells
-set t_vb=
 
 " intuitive backspacing in insert mode
 set backspace=indent,eol,start
@@ -111,4 +107,25 @@ let g:solarized_termcolors=256
 let g:solarized_contrast="high"
 colorscheme solarized
 
-let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+" visual bell without error flashing
+set visualbell t_vb=
+set noerrorbells
+au GuiEnter * set visualbell t_vb=
+
+let g:ackprg="ack -H --nocolor --nogroup --column"
+nnoremap <leader>a :Ack 
+
+" ignore whitespace in vimdiff
+set diffopt+=iwhite
+
+" hide search results
+nnoremap <leader><space> :noh<cr>
+
+" vim fuzzyfinder plugin
+nnoremap <leader>t :FufFile<cr>
+" start recursive search with a comma. see help for 'fuf-abbreviation'
+let g:fuf_abbrevMap = {
+	\   "^," : [
+	\     "**/",
+	\   ],
+	\ }"
