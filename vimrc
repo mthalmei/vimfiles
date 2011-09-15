@@ -19,7 +19,7 @@ set incsearch
 " hightlight matching parens
 set showmatch
 
- smart case sensitive searching 
+" smart case sensitive searching 
 set ignorecase
 set smartcase
 
@@ -120,15 +120,6 @@ set diffopt+=iwhite
 
 " hide search results
 nnoremap <leader><space> :noh<cr>
-
-" vim fuzzyfinder plugin
-nnoremap <leader>t :FufFile<cr>
-" start recursive search with a comma. see help for 'fuf-abbreviation'
-let g:fuf_abbrevMap = {
-	\   "^," : [
-	\     "**/",
-	\   ],
-	\ }"
 
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
