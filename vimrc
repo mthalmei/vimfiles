@@ -19,7 +19,7 @@ set incsearch
 " hightlight matching parens
 set showmatch
 
-" smart case sensitive searching 
+ smart case sensitive searching 
 set ignorecase
 set smartcase
 
@@ -113,7 +113,7 @@ set noerrorbells
 au GuiEnter * set visualbell t_vb=
 
 let g:ackprg="ack -H --nocolor --nogroup --column"
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :execute "Ack " . expand("<cword>") <CR>
 
 " ignore whitespace in vimdiff
 set diffopt+=iwhite
@@ -129,3 +129,14 @@ let g:fuf_abbrevMap = {
 	\     "**/",
 	\   ],
 	\ }"
+
+"rebind my favorite commands from Git.vim for Fugitive
+nmap <leader>gs :Gstatus<cr>
+nmap <leader>gc :Gcommit<cr>
+nmap <leader>ga :Gwrite<cr>
+nmap <leader>gl :Glog<cr>
+nmap <leader>gd :Gdiff<cr>
+
+" show git info in the sattusline
+set laststatus=2
+set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
