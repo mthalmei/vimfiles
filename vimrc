@@ -12,6 +12,7 @@ set history=1000
 " have further <Tab>s cycle through the possibilities:
 set wildmode=list:longest,full
 set wildmenu
+set wildignore+=*.o,*.obj,.git,.svn
 " highlight search results
 set hlsearch 
 " enable incremental search
@@ -131,3 +132,8 @@ nmap <leader>gd :Gdiff<cr>
 " show git info in the sattusline
 set laststatus=2
 set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
+" define list characters
+set lcs=tab:>-,eol:$,trail:~,extends:>,precedes:<
+
+" don't complain about double cscope databases on startup
+set nocscopeverbose
