@@ -137,3 +137,5 @@ set lcs=tab:>-,eol:$,trail:~,extends:>,precedes:<
 
 " don't complain about double cscope databases on startup
 set nocscopeverbose
+
+let g:CommandTMaxFiles=100000
