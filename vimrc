@@ -100,6 +100,8 @@ set linebreak
 
 " Toggle spell checking
 map <F7>  :setlocal spell! spelllang=de <return>
+" generate tags file for current directory
+map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 "tell the term has 256 colors
 set t_Co=256
@@ -139,3 +141,7 @@ set lcs=tab:>-,eol:$,trail:~,extends:>,precedes:<
 set nocscopeverbose
 
 let g:CommandTMaxFiles=100000
+
+" move with <Ctrl> + Nav or hklm
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
