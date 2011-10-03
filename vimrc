@@ -145,3 +145,6 @@ let g:CommandTMaxFiles=100000
 " move with <Ctrl> + Nav or hklm
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
+
+" store yankring history in .vim directory
+let g:yankring_history_dir = '$HOME/.vim/'
