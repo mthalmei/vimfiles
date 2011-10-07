@@ -148,3 +148,6 @@ let g:miniBufExplMapWindowNavArrows = 1
 
 " store yankring history in .vim directory
 let g:yankring_history_dir = '$HOME/.vim/'
+
+" ignore *.o, tags, *.pyc and *.pyo files in NERDTree
+let NERDTreeIgnore = ['\.o$','\.pyo$','\.pyc$', '^tags$']
