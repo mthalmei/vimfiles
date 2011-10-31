@@ -137,8 +137,21 @@ set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
 " define list characters
 set lcs=tab:>-,eol:$,trail:~,extends:>,precedes:<
 
+if has('cscope')
 " don't complain about double cscope databases on startup
-set nocscopeverbose
+  set nocscopeverbose
+
+  if has('quickfix')
+    set cscopequickfix=s-,c-,d-,i-,t-,e-
+  endif
+
+  cnoreabbrev csa cs add
+  cnoreabbrev csf cs find
+  cnoreabbrev csk cs kill
+  cnoreabbrev csr cs reset
+  cnoreabbrev css cs show
+  cnoreabbrev csh cs help
+endif
 
 let g:CommandTMaxFiles=100000
 
