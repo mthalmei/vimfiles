@@ -133,7 +133,7 @@ nmap <leader>gd :Gdiff<cr>
 
 " show git info in the sattusline
 set laststatus=2
-set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
+set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=%l,%c-%v\ %P
 " define list characters
 set lcs=tab:>-,eol:$,trail:~,extends:>,precedes:<
 
