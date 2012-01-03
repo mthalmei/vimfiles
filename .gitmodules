@@ -15,7 +15,7 @@
 	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
+	url = https://mthalmei@github.com/mthalmei/snipmate.vim.git
 	ignore = untracked
 [submodule "bundle/localrc"]
 	path = bundle/localrc
@@ -38,7 +38,7 @@
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
-	url = https://github.com/sjl/gundo.vim.git
+	url = git://github.com/sjl/gundo.vim.git
 [submodule "bundle/bufkill"]
 	path = bundle/bufkill
 	url = git://github.com/vim-scripts/bufkill.vim.git
