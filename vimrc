@@ -65,6 +65,8 @@ set showmode
 " show line numbers
 set number
 set ruler
+" highlight current line
+set cursorline
 
 " enable syntax highlighting
 syntax on
