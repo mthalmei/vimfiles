@@ -4,8 +4,8 @@ hardstatus alwayslastline
 #hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
 
-screen -t htop  2 nice htop
-screen -t bash	1 bash 
+#screen -t htop  2 nice htop
+screen -t shell	1 zsh 
 termcapinfo xterm ti@:te@
 
 # terminfo and termcap for nice 256 color terminal
