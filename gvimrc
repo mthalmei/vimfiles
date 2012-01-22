@@ -2,4 +2,4 @@
 set guioptions-=T
 
 set mouse=a
-set gfn=Terminus\ 10
+set gfn=Terminus\ 11
