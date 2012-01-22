@@ -166,5 +166,9 @@ let g:yankring_history_dir = '$HOME/.vim/'
 
 " ignore *.o, tags, *.pyc and *.pyo files in NERDTree
 let NERDTreeIgnore = ['\.o$','\.pyo$','\.pyc$', '^tags$']
+" Toggle NERDTRee
+map <F2> :NERDTreeToggle<CR>
+" close NERDTree if last window
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 let g:SuperTabDefaultCompletionType = "context"
