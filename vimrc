@@ -110,7 +110,7 @@ set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
-colorscheme solarized
+colorscheme zenburn
 
 " visual bell without error flashing
 set visualbell t_vb=

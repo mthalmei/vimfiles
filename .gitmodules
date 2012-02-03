@@ -61,3 +61,6 @@
 [submodule "bundle/minibufexplorer"]
 	path = bundle/minibufexplorer
 	url = git://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/Zenburn"]
+	path = bundle/Zenburn
+	url = git://github.com/jnurmine/Zenburn
