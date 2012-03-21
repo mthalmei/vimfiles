@@ -67,3 +67,6 @@
 [submodule "bundle/Zenburn"]
 	path = bundle/Zenburn
 	url = git://github.com/jnurmine/Zenburn
+[submodule "bundle/vala"]
+	path = bundle/vala
+	url = git://github.com/rainux/vim-vala.git
