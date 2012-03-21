@@ -157,6 +157,7 @@ if has('cscope')
 endif
 
 let g:CommandTMaxFiles=100000
+set wildignore+=downloads
 
 " move with <Ctrl> + Nav or hklm
 let g:miniBufExplMapWindowNavVim = 1
