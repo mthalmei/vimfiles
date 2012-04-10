@@ -167,7 +167,7 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:yankring_history_dir = '$HOME/.vim/'
 
 " ignore *.o, tags, *.pyc and *.pyo files in NERDTree
-let NERDTreeIgnore = ['\.o$','\.pyo$','\.pyc$', '^tags$']
+let NERDTreeIgnore = ['\.o$','\.pyo$','\.pyc$', '^tags$', '\.in$', '\.stamp$']
 " Toggle NERDTRee
 map <F2> :NERDTreeToggle<CR>
 " close NERDTree if last window
