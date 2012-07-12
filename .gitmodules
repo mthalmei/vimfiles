@@ -70,3 +70,9 @@
 [submodule "bundle/vala"]
 	path = bundle/vala
 	url = git://github.com/rainux/vim-vala.git
+[submodule "bundle/ShowTrailingWhitespace"]
+	path = bundle/ShowTrailingWhitespace
+	url = git://github.com/vim-scripts/ShowTrailingWhitespace.git
+[submodule "bundle/DeleteTrailingWhitespace"]
+	path = bundle/DeleteTrailingWhitespace
+	url = git://github.com/vim-scripts/DeleteTrailingWhitespace.git
