@@ -14,13 +14,13 @@ set wildmode=list:longest,full
 set wildmenu
 set wildignore+=*.o,*.obj,.git,.svn
 " highlight search results
-set hlsearch 
+set hlsearch
 " enable incremental search
 set incsearch
 " hightlight matching parens
 set showmatch
 
-" smart case sensitive searching 
+" smart case sensitive searching
 set ignorecase
 set smartcase
 
@@ -51,7 +51,7 @@ nnoremap ü <C-]>
 nnoremap Ü <C-O>
 
 " don't end selection on indent
-vnoremap < <gv 
+vnoremap < <gv
 vnoremap > >gv
 
 " suppress silly messages
@@ -175,3 +175,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "<C-x><C-o>"
+
+" Syntastic settings
+let g:syntastic_python_checker = 'pyflakes'

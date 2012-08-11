@@ -49,9 +49,6 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://github.com/wincent/Command-T.git
-[submodule "bundle/pyflakes"]
-	path = bundle/pyflakes
-	url = git://github.com/mitechie/pyflakes-pathogen.git
 [submodule "bundle/pydoc"]
 	path = bundle/pydoc
 	url = git://github.com/fs111/pydoc.vim.git
@@ -79,3 +76,6 @@
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = git://github.com/vimoutliner/vimoutliner.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
