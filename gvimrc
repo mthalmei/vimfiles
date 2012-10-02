@@ -9,4 +9,4 @@ set guioptions-=L
 
 
 set mouse=a
-set gfn=Terminus\ 11
+set gfn=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
