@@ -54,6 +54,12 @@ nnoremap Ü <C-O>
 vnoremap < <gv
 vnoremap > >gv
 
+" Do not use arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 " suppress silly messages
 set shortmess=atI
 
