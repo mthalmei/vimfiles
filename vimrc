@@ -185,3 +185,5 @@ let g:SuperTabContextDefaultCompletionType = "<C-x><C-o>"
 " Syntastic settings
 let g:syntastic_python_checker = 'pyflakes'
 let g:Powerline_symbols='fancy'
+
+highlight clear SignColumn
