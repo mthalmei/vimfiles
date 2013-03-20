@@ -52,7 +52,7 @@
 	url = git://github.com/jnurmine/Zenburn
 [submodule "bundle/vala"]
 	path = bundle/vala
-	url = git://github.com/rainux/vim-vala.git
+	url = git://github.com/tkztmk/vim-vala.git
 [submodule "bundle/ShowTrailingWhitespace"]
 	path = bundle/ShowTrailingWhitespace
 	url = git://github.com/vim-scripts/ShowTrailingWhitespace.git
