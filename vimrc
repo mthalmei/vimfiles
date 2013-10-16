@@ -183,7 +183,7 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "<C-x><C-o>"
 
 " Syntastic settings
-let g:syntastic_python_checker = 'pyflakes'
+let g:syntastic_python_checkers = ['pyflakes']
 let g:Powerline_symbols='fancy'
 
 highlight clear SignColumn
