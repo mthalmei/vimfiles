@@ -187,3 +187,8 @@ let g:syntastic_python_checkers = ['pyflakes']
 let g:Powerline_symbols='fancy'
 
 highlight clear SignColumn
+
+let s:host_vimrc = $HOME . '/.vim/' . hostname() . '.vimrc'
+if filereadable(s:host_vimrc)
+  execute 'source ' . s:host_vimrc
+endif
