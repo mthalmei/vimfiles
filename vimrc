@@ -192,3 +192,5 @@ let s:host_vimrc = $HOME . '/.vim/' . hostname() . '.vimrc'
 if filereadable(s:host_vimrc)
   execute 'source ' . s:host_vimrc
 endif
+
+hi UnwantedTrailerTrash guibg=red ctermbg=red
