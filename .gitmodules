@@ -71,9 +71,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
-[submodule "bundle/color_highlight"]
-	path = bundle/color_highlight
-	url = git://github.com/chrisbra/color_highlight.git
 [submodule "bundle/quickfixsigns"]
 	path = bundle/quickfixsigns
 	url = git://github.com/tomtom/quickfixsigns_vim.git
@@ -83,3 +80,7 @@
 [submodule "bundle/trailertrash"]
 	path = bundle/trailertrash
 	url = https://github.com/csexton/trailertrash.vim.git
+[submodule "bundle/Colorizer"]
+	path = bundle/Colorizer
+	url = https://github.com/chauncey-garrett/vim-colorizer.git
+	branch = master
