@@ -84,3 +84,6 @@
 	path = bundle/Colorizer
 	url = https://github.com/chauncey-garrett/vim-colorizer.git
 	branch = master
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/bling/vim-airline.git

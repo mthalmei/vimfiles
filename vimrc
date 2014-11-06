@@ -184,7 +184,9 @@ let g:SuperTabContextDefaultCompletionType = "<C-x><C-o>"
 
 " Syntastic settings
 let g:syntastic_python_checkers = ['pyflakes']
-let g:Powerline_symbols='fancy'
+
+" Airline settings
+let g:airline_powerline_fonts=1
 
 highlight clear SignColumn
 
