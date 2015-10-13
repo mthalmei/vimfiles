@@ -29,7 +29,9 @@ set gdefault
 
 if v:version >= 703
     "undo settings
-    set undodir=$HOME/.vim/undo
+    set undodir=$HOME/.vim/.undo//
+    set backupdir=$HOME/.vim/.backup//
+    set directory=$HOME/.vim/.swp//
     set undofile
 
     set colorcolumn=+1 "mark the ideal max text width
@@ -196,3 +198,5 @@ if filereadable(s:host_vimrc)
 endif
 
 hi UnwantedTrailerTrash guibg=red ctermbg=red
+
+let g:ag_prg="ag --vimgrep --smart-case -U"
