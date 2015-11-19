@@ -116,9 +116,10 @@ map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 "tell the term has 256 colors
 set t_Co=256
 set background=dark
-let g:zenburn_high_Contrast=1
+"let g:zenburn_high_Contrast=1
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
+let g:zenburn_force_dark_Background=1
 colorscheme zenburn
 
 " visual bell without error flashing
