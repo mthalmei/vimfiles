@@ -98,6 +98,3 @@
 [submodule "bundle/vim-kalisi"]
 	path = bundle/vim-kalisi
 	url = https://github.com/freeo/vim-kalisi.git
-[submodule "bundle/ag"]
-	path = bundle/ag
-	url = https://github.com/rking/ag.vim.git

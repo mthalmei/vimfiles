@@ -199,5 +199,3 @@ if filereadable(s:host_vimrc)
 endif
 
 hi UnwantedTrailerTrash guibg=red ctermbg=red
-
-let g:ag_prg="ag --vimgrep --smart-case -U"
