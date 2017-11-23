@@ -186,7 +186,7 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "<C-x><C-o>"
 
 " Syntastic settings
-let g:syntastic_python_checkers = ['pyflakes']
+let g:syntastic_python_checkers = ['flake8']
 
 " Airline settings
 let g:airline_powerline_fonts=1
