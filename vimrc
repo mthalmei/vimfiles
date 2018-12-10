@@ -191,6 +191,9 @@ let g:syntastic_python_checkers = ['flake8']
 " Airline settings
 let g:airline_powerline_fonts=1
 
+" Vala plugin customizations
+let g:vala_syntax_folding_enabled=0
+
 highlight clear SignColumn
 
 let s:host_vimrc = $HOME . '/.vim/' . hostname() . '.vimrc'

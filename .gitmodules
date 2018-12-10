@@ -49,7 +49,7 @@
 	url = git://github.com/jnurmine/Zenburn
 [submodule "bundle/vala"]
 	path = bundle/vala
-	url = git://github.com/tkztmk/vim-vala.git
+	url = https://github.com/arrufat/vala.vim.git
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = git://github.com/vimoutliner/vimoutliner.git
